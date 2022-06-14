@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home1"
+        android:title="Home"
+
+        />
+    <item
+        android:id="@+id/navigation_home2"
+        android:icon="@drawable/mycrop"
+        android:title="Crops"
+
+
+        />
+
+    <item
+        android:id="@+id/navigation_home3"
+        android:icon="@drawable/disesase"
+        android:title="Crop Docter" />
+    <item
+        android:id="@+id/navigation_home4"
+        android:icon="@drawable/community"
+        android:title="Community" />
+
+
+</menu>

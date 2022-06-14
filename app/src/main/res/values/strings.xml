@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyFarm</string>
+    <string name="about">My Farm, the mix of Agriculture and smart,
+                       scientific, Sustainable, Modern Technology
+                         Methods for Precision Farming</string>
+    <string name="signup"><u>Sign Up</u></string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="signin"><u>Sign In</u></string>
+    <string name="title_activity_comment">commentActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

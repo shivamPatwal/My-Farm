@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f5f5f5">
+
+
+            <RelativeLayout
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+
+                android:background="@drawable/curve_background"
+                android:elevation="20dp">
+
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="20dp"
+                    android:text="SOIL TYPE"
+
+
+                    android:textAllCaps="true"
+                    android:textColor="#FF3D00"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:id="@+id/org"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_below="@id/text1"
+                    android:layout_margin="15dp"
+                    android:background="#FF3D00"></RelativeLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/l2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/org"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/soil1"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/soil1" />
+
+                    <ImageView
+                        android:id="@+id/soil2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="65dp"
+                        android:src="@drawable/soil2" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/l2"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/soil3"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/soil3" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:id="@+id/soil4"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="65dp"
+                        android:src="@drawable/soil4" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:id="@+id/soil5"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/l3"
+
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="15dp"
+
+                    android:layout_marginBottom="15dp"
+                    android:src="@drawable/soil5"
+
+                    />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</FrameLayout>

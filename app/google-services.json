@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "770427251136",
+    "firebase_url": "https://myfarm-a4ceb-default-rtdb.firebaseio.com",
+    "project_id": "myfarm-a4ceb",
+    "storage_bucket": "myfarm-a4ceb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770427251136:android:0d7851857b35deae464025",
+        "android_client_info": {
+          "package_name": "com.example.myfarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770427251136-ma702upb45r12445d39cl9o9qb3td2eu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myfarm",
+            "certificate_hash": "7feb830ed94169729ca075387d3e5db216392378"
+          }
+        },
+        {
+          "client_id": "770427251136-u1vm3hl88bs3ergg22mlng0gdaubvkmi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDJD61mVCSzjW8_xjYg_HZF9IMu593cJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770427251136-u1vm3hl88bs3ergg22mlng0gdaubvkmi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

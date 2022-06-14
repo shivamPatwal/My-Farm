@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f5f5f5">
+
+
+            <RelativeLayout
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/curve_background"
+                android:elevation="20dp">
+
+                <RelativeLayout
+                    android:id="@+id/org"
+                    android:layout_width="30dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:background="#FF3D00"></RelativeLayout>
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_toEndOf="@id/org"
+                    android:text="ADDRESS"
+                    android:textAllCaps="true"
+                    android:textColor="#FF3D00"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/address"
+                    android:layout_below="@id/text1"
+                    android:layout_marginTop="10dp"
+                    android:layout_toEndOf="@id/org"
+                    android:text="AS-8 2nd Floor, PLS Plaza, Gandhi Rd, Dhamawala Mohalla, Paltan Bazaar, Dehradun, Uttarakhand 248001, India"
+                    android:textColor="#757575"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+            <!-- AboutCollapsingToolbar -->
+            <RelativeLayout
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/one"
+                android:layout_marginStart="20dp"
+                android:visibility="invisible"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/curve_background"
+                android:elevation="20dp">
+
+                <RelativeLayout
+                    android:id="@+id/pur"
+                    android:layout_width="30dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:background="#9c27b0"></RelativeLayout>
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_toEndOf="@id/pur"
+                    android:text="RATING"
+                    android:textAllCaps="true"
+                    android:textColor="#9c27b0"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/progress_bar"
+                    style="@style/CircularDeterminateProgressBar"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_below="@id/text2"
+                    android:layout_centerInParent="true"
+                    android:max="100"
+                    tool:progress="5" />
+
+                <TextView
+                    android:id="@+id/text_view_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text2"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="70dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="32dp"
+                    tool:text="4.8" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>
