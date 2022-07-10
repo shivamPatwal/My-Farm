@@ -102,7 +102,7 @@ The uploads section consists of information of plants, photo of plant, user id, 
 <h1>LINKS</h1>
 
 <p>>
-<a href="[https://linkedin.com/in/shivam-patwal-9b8b06157/](https://www.linkedin.com/in/shivam-patwal-9b8b06157/)">
+<a href="https://www.linkedin.com/in/shivam-patwal-9b8b06157/">
 <img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/
 
 </a>
