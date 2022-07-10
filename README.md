@@ -7,8 +7,6 @@ MY FARM <br>Smart Farming App
 </h1>
   
 <p align="center"
- 
-  Download the APK from [here](https://github.com/shivamPatwal/SmartCity/blob/main/app-debug.apk)
 
   </p>
 
@@ -28,10 +26,10 @@ Since the past days and in the present too, farmers usually detect the crop dise
 
 
 <h3>YouTube Demo</h3>
-<a href="https://youtu.be/ornFUtRToJc" target="_blank"><img src="http://img.youtube.com/vi/ornFUtRToJc/0.jpg" 
-alt="Vaccinate-Me Demo" width="240" height="180" border="10" /></a>
+<a href="https://youtu.be/mp5m2LGEol4" target="_blank"><img src="http://img.youtube.com/vi/mp5m2LGEol4/0.jpg" 
+alt="MY FARM APP DEMO" width="240" height="180" border="10" /></a>
 
-<h2>Screenshots</h2>
+<h1>Screen Info And Functionality</h1>
 <div class="row">
 <h3> Login screen </h3>
       <img src="https://github.com/shivamPatwal/My-Farm/blob/main/screenshots/login.jpeg" width="250" title="Login"  >
