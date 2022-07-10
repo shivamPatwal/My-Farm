@@ -45,8 +45,14 @@ alt="Vaccinate-Me Demo" width="240" height="180" border="10" /></a>
 <h3> Home screen </h3>
       <img src="https://github.com/shivamPatwal/My-Farm/blob/main/screenshots/home.jpeg" width="250" title="Home"  >
       
-<p > A Login screen is the screen where the user is asked to fill his credential like email, name etc to login into application.  </p>      
-      
+<p > This screen contains content of the application. This is the first screen of the application that’s shows the features of application. 
+  <br>In our Application, Home Screen provides following functionality:
+ <br>
+•	Makes App UI user friendly<br>
+•	Shows current weather using weather API<br>
+•	Stores recent diagnosed pictures using SQLite database<br>
+  </p>      
+          
 </div>
 
 
@@ -55,9 +61,15 @@ alt="Vaccinate-Me Demo" width="240" height="180" border="10" /></a>
       <img src="https://github.com/shivamPatwal/My-Farm/blob/main/screenshots/crops.jpeg" width="250" title="Crop">
       <img src="https://github.com/shivamPatwal/My-Farm/blob/main/screenshots/soil%20type.jpeg" width="250" title="Soil Type">
       <img src="https://github.com/shivamPatwal/My-Farm/blob/main/screenshots/sowing%20season.jpeg" width="250" title="Sowing season"  >
+<p > This screen contains details of the selected crops or plants by the user. This screen shows detail information of crop, its best soil type, best season, best irrigation method etc.<br>
+In our Application, Crops Screen provides following functionality:
+<br>
+•	Shows list of more than 30 plants in grid view form of 3 X 3 matrix.<br>
+•	User can select any plants from this list for retrieve more details about that selected plant<br> 
+•	This screen shows detail information of crop, its best soil type, best season, best irrigation method etc.  <br>
+  </p>      
       
-<p > A Login screen is the screen where the user is asked to fill his credential like email, name etc to login into application.  </p>      
-      
+
 </div>
 
 
@@ -65,8 +77,8 @@ alt="Vaccinate-Me Demo" width="240" height="180" border="10" /></a>
 <h3> Crop Doctor </h3>
       <img src="https://github.com/shivamPatwal/My-Farm/blob/main/screenshots/crop%20doctor.jpeg" width="250" title="Crop Doctor"  >
       <img src="https://github.com/shivamPatwal/My-Farm/blob/main/screenshots/diease%20info.jpeg" width="250" title="Soil Type">
+<p >This Screen offers an instant diagnosis of a diseased plant to the farmer, which help the farmer with the solution to manage the problem instantly and effectively through our app<br>This Screen is created to detect the disease of a crop through its leaf or disease part. In this project concept of <strong>deep learning</strong> is used which uses the concept of neural networks to solve critical tasks like human brain. For the image classification task since we are classifying leaf images based on its disease so to serve that purpose, we have used CNN (Convolution Neural Network) Famous for working with image data since it can detect features automatically in a fast way because even normal images consist of lakhs of features. In this, we have created the model with different layers like CNN, and max pooling. For boosting the model accuracy, we have used pre-trained Alex net Model weights for our CNN layer so training for those layers has been freezed and the rest layers were trained in the training process.   </p>      
       
-<p > A Login screen is the screen where the user is asked to fill his credential like email, name etc to login into application.  </p>      
       
 </div>
 
@@ -74,7 +86,15 @@ alt="Vaccinate-Me Demo" width="240" height="180" border="10" /></a>
 <h3> Farmer Community </h3>
       <img src="https://github.com/shivamPatwal/My-Farm/blob/main/screenshots/farmer%20community.jpeg" width="250" title="Farmer Community"  >
       
-<p > A Login screen is the screen where the user is asked to fill his credential like email, name etc to login into application.  </p>      
+<p > The user should be able to upload photos of plants to get advice from experts. Experts will review and provide their advice over the app.
+
+The database is built on firebase and consist of two sections users and uploads.
+
+The users section consists of all the details the user enters when he registers, whenever the user clicks the allot button, the crop is also updated in his corresponding key.
+
+The uploads section consists of information of plants, photo of plant, user id, comments on pictures.
+
+  </p>      
       
 </div>
 
